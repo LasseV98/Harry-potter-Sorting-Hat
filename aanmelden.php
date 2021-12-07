@@ -9,43 +9,22 @@
 </head>
         <body>
             <div class="content">
-                <h1>
-                    Create account
-                </h1>
-                <div class="form">
-                        <form action="" method="POST">
-                            <!--youre Firstname-->
-                            <label for="firstname">Youre Firstname</label>
-                            <br/>
-                            <input class="New_user" placeholder="Jan" type="text"requierd>
-                            <br/>
-                            <!--youre Name-->
-                            <label for="lastname">Name</label>
-                            <br/>
-                            <input class="New_user"  placeholder="Jannsens" type="text" requierd>
-                            <br/>
-                            <!--hier komt Youre age -->
-                            
-                            <label for="gender"> Select you gender</label>
-                            <br/>
-                            <select name="gender">
-                              
-                                <option value="none" selected>Gender</option>
-                                <option value="male">Male</option>
-                                <option value="female">Female</option>
-                                <option value="other">other</option>
-                            </select>
-
-
-                            <br/>
-                            <!--youre description-->
-                            <label for="description">Description</description>
-                            <br/>
-                            <input type="text" requierd>
+                <div>
+                    <h1 class="Title_aanmelden">
+                        Create account
+                    </h1>
+                </div>
+                
+               
                             <!--button-->
-                            <br/>
-                            <button class="knop">
-                                create account
-                            </button>   
+                <div class="button">
+                    <button class="knop">
+                        create account
+                    </button>   
+                </div>   
+                <div class="foto_aanmelden">
+                    <img class="img_aanmelden" src="assets/images/gif_aanmelden.gif" alt="aanmelden" >
+                </div>
+            </div>                
         </body>
 </html>
