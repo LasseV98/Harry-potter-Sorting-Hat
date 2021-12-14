@@ -15,12 +15,40 @@
                     </h1>
                 </div>
                 
-               
+            <form action="./add.php" method="Post">
+                <label for="firstname"> Firstname</label>
+                <br/>
+                <input type="text" id="firstname" name="firstname" placeholder="enter Firstname">
+                <br/>
+
+                <label for="username">Lastname</label>
+                <br/>
+
+                <input type="text" id="lastname" name="lastname" placeholder="enter lastname">
+                <br/>
+
+                <label for="gender">gender</label>
+                <br/>
+                <input type="text" id="gender" name="gender" placeholder="enter gender">
+                <br/>
+
+                <label for="description">description</label>
+                <br/>
+
+                <input type="text" id="desciription" name="discription" placeholder="enter discripton">
+                <br/>
+
+                <input type="submit" value = "create user" class="button">
+            </form>
                             <!--button-->
+
+                            
+
                 <div class="button">
                     <button class="knop">
                         create account
-                    </button>   
+                    </button> 
+                      
                 </div>   
                 <div class="foto_aanmelden">
                     <img class="img_aanmelden" src="assets/images/gif_aanmelden.gif" alt="aanmelden" >
