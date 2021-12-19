@@ -8,46 +8,71 @@
     <link rel="stylesheet" href="assets/css/index.css" type="text/css">
 </head>
         <body>
-            <div class="content">
+            <div class="content  ">
                 <div>
                     <h1 class="Title_aanmelden">
                         Create account
                     </h1>
                 </div>
-                
-            <form action="./add.php" method="Post">
-                <label for="firstname"> Firstname</label>
-                <br/>
-                <input type="text" id="firstname" name="firstname" placeholder="enter Firstname">
-                <br/>
 
-                <label for="username">Lastname</label>
-                <br/>
+                <div class="form">
+                        <form action="add.php" method="POST">
+                            <!--FIRSTNAME-->
+                            <label for="firstname">
+                                <span class="label">Firstname*</span>
+                            </label>
+                            <br/>
+                            <input class="input_field" type="text" id="firstname" name="firstname" placeholder="Geef je voornaam in" required/>
+                            <br/>
+                            <br/>
 
-                <input type="text" id="lastname" name="lastname" placeholder="enter lastname">
-                <br/>
+                            <!--LASTNAME-->
+                            <label for="lastname">
+                                <span class="label">Lastname*</span>
+                            </label>
+                            <br/>
+                            <input class="input_field" type="text" id="lastname" name="lastname" placeholder="Geef je (achter)naam in" required/>
+                            <br/>
+                            <br/>
+                            <!--GENDER-->
+                            <label for="male">
+                                <span class="label"> chose youre gender*</span>
+                            </label>
+                            <br/>
+                            <input type="radio" id="woman" name="usergender" value="woman" checked/>
+                            <label for="woman">
+                                <span class="keuze">Woman</span>
+                            </label>
+                            <br/>
+                            <input type="radio" id="male" name="usergender" value="male"/>
+                            <label for="male">
+                                <span class="keuze">Male</span>
+                            </label>
+                            <br/>
+                            <input type="radio" id="other" name="usergender" value="other"/>
+                            <label for="other">
+                                <span class="keuze">Other</span>
+                            </label>
+                            <br/>
+                            <br/>
 
-                <label for="gender">gender</label>
-                <br/>
-                <input type="text" id="gender" name="gender" placeholder="enter gender">
-                <br/>
+                            <!--Vertel wat over jezelf-->
+                            <label for="comment">
+                            <span class="label">Something you loved</span>
+                            </label>
+                            <br/>
+                            <input class="input_field" type="text" id="description" name="discription" placeholder="what you loved the most" required/>
+                                                                                                                            
+                            <!--SUBMIT BUTTON-->
+                           
+                            <input class = "knop_createNewMember" type="submit" value="Create account!"/>
+                            <br/>
+                        </form>
+                    </div>
+                                    
 
-                <label for="description">description</label>
-                <br/>
-
-                <input type="text" id="desciription" name="discription" placeholder="enter discripton">
-                <br/>
-
-                <input type="submit" value = "create user" class="button">
-            </form>
-                            <!--button-->
-
-                            
-
-                <div class="button">
-                    <button class="knop">
-                        create account
-                    </button> 
+               
+                    
                       
                 </div>   
                 <div class="foto_aanmelden">

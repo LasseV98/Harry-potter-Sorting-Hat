@@ -1,7 +1,7 @@
 
 /*de achtergrond kleur */
 body{
-    background-color:#CACFD2;
+    background-color:orange;
 }
 /*de content is alles wat in de body staat dit staat in aparte div --> content , mooi vak van maken en dat is waar alles in moet dit is de opmaak voor alle paginas dus staat apart en van boven*/
 /*ook de H1 indiend deze er is komt mooi in het midden*/
@@ -11,6 +11,7 @@ h1{
     text-align: center;
 }
 /*knop word op meerdere plaatsen gebruikt deze word hier ook op voorhan al gemaakt*/
+
 .knop{
     width: 200px;
     height: 60px;
@@ -111,16 +112,54 @@ table{
 
 }
 /*Hier komt alles van de pagina aanmelden.php*/
+
 .foto_aanmelden{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .img_aanmelden{
-    width: 50%;
-    height:50%;
-    margin-top: 50px;
-    margin-left: 90px;
+    width: 30%;
+    height:30%;
+    margin-top: -250px;
+    margin-left: 50px;
    
 }
-  
+
+/* placing form*/
+.form{
+    margin-left: 10px;
+    text-align: center;
+}
+
+/* input met class type field color and with*/
+input.input_field{
+    background-color: #eeeeee;
+    width: 300px;
+}
+.knop_createNewMember{
+    width: 200px;
+    height: 60px;
+    /* text in het midden zetten*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color:#EC7063;
+
+    margin-top: 50px;
+    margin-left: 190px;
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:initial;
+
+}
+.knop:hover{
+    background-color: goldenrod;
+    color: gray;
+    
+}
+
