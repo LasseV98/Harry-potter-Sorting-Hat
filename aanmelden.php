@@ -16,7 +16,7 @@
                 </div>
 
                 <div class="form">
-                        <form action="add.php" method="POST">
+                        <form action="assets/controllers/add_user.php" method="POST">
                             <!--FIRSTNAME-->
                             <label for="firstname">
                                 <span class="label">Firstname*</span>
@@ -39,17 +39,17 @@
                                 <span class="label"> chose youre gender*</span>
                             </label>
                             <br/>
-                            <input type="radio" id="woman" name="usergender" value="woman" checked/>
+                            <input type="radio" id="woman" name="gender" value="woman" checked/>
                             <label for="woman">
                                 <span class="keuze">Woman</span>
                             </label>
                             <br/>
-                            <input type="radio" id="male" name="usergender" value="male"/>
+                            <input type="radio" id="male" name="gender" value="male"/>
                             <label for="male">
                                 <span class="keuze">Male</span>
                             </label>
                             <br/>
-                            <input type="radio" id="other" name="usergender" value="other"/>
+                            <input type="radio" id="other" name="gender" value="other"/>
                             <label for="other">
                                 <span class="keuze">Other</span>
                             </label>
@@ -61,7 +61,7 @@
                             <span class="label">Something you loved</span>
                             </label>
                             <br/>
-                            <input class="input_field" type="text" id="description" name="discription" placeholder="what you loved the most" required/>
+                            <input class="input_field" type="text" id="description" name="description" placeholder="what you loved the most" required/>
                                                                                                                             
                             <!--SUBMIT BUTTON-->
                            

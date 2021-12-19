@@ -35,7 +35,7 @@ function dbClose ($conn)
 
 
     }
-    function insertQuery(){
+    function insertQuery($sql){
          // make connection with db
          $conn = connectWithDb();  
          // create sql statement
@@ -48,5 +48,5 @@ function dbClose ($conn)
  
  
  
-    };
-    //
+    }
+    

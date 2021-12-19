@@ -1,7 +1,7 @@
 
 /*de achtergrond kleur */
 body{
-    background-color:orange;
+    background-color:#FFA500;
 }
 /*de content is alles wat in de body staat dit staat in aparte div --> content , mooi vak van maken en dat is waar alles in moet dit is de opmaak voor alle paginas dus staat apart en van boven*/
 /*ook de H1 indiend deze er is komt mooi in het midden*/
@@ -33,8 +33,8 @@ h1{
 
 }
 .knop:hover{
-    background-color: goldenrod;
-    color: gray;
+    background-color: #daa520;
+    color: #A9A9A9	;
     
 }
 
@@ -103,7 +103,7 @@ table{
 }
 .button_house:hover{
     background-color: goldenrod;
-    color: gray;
+    color: #A9A9A9	;
 }
 .user_picture{
     display: flex;
@@ -137,6 +137,8 @@ input.input_field{
     background-color: #eeeeee;
     width: 300px;
 }
+
+/*submit button with other class name  but the same things except the margin left , some changes for centering*/
 .knop_createNewMember{
     width: 200px;
     height: 60px;
@@ -150,7 +152,7 @@ input.input_field{
 
     margin-top: 50px;
     margin-left: 190px;
-    color: black;
+    color: #000000	;
     text-decoration: none;
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
@@ -159,7 +161,7 @@ input.input_field{
 }
 .knop:hover{
     background-color: goldenrod;
-    color: gray;
+    color: #808080	;
     
 }
 
