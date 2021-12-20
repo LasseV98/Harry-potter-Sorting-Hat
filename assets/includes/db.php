@@ -2,11 +2,11 @@
 
 function connectWithDb(){
       // my db credentials
-      $hostname = "localhost"; // locatie van de sql server
-      $dbUser = "admintakehome"; // username om in te loggen
-      $dbPassword = "webfundamentalsisleuk"; // password om in te loggen
-      $dbName = "takehome";
-      $port = 8889; // 3306 - default
+      $hostname = "ID328544_SortingHat21.db.webhosting.be";// locatie van de sql server
+      $dbUser = "ID328544_SortingHat21"; // username om in te loggen
+      $dbPassword = "WebfundIes21"; // password om in te loggen
+      $dbName = "ID328544_SortingHat21";
+      $port = 3306; // 3306 - default
   
       $conn = mysqli_connect($hostname, $dbUser, $dbPassword, $dbName, $port);
   

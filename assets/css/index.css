@@ -10,6 +10,12 @@ h1{
     justify-content: center;
     text-align: center;
 }
+h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 /*knop word op meerdere plaatsen gebruikt deze word hier ook op voorhan al gemaakt*/
 
 .knop{
@@ -71,16 +77,28 @@ h1{
 
 
 
+
 /*table*/
 
 table{
 
     margin-left: 5px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
 }
 
 
 /*pagina houses*/
 /*deze zijn anders getagt omwille van in een 2x2 tabel te staan gewoon op de class genoemd*/
+.info{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+
 .button_house{
     width: 200px;
     height: 60px;

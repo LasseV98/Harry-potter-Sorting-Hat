@@ -22,7 +22,7 @@
                                 <span class="label">Firstname*</span>
                             </label>
                             <br/>
-                            <input class="input_field" type="text" id="firstname" name="firstname" placeholder="Geef je voornaam in" required/>
+                            <input class="input_field" type="text" id="firstname" name="firstname" placeholder="Geef je voornaam in" required="required"/>
                             <br/>
                             <br/>
 
@@ -31,7 +31,7 @@
                                 <span class="label">Lastname*</span>
                             </label>
                             <br/>
-                            <input class="input_field" type="text" id="lastname" name="lastname" placeholder="Geef je (achter)naam in" required/>
+                            <input class="input_field" type="text" id="lastname" name="lastname" placeholder="Geef je (achter)naam in" required="required"/>
                             <br/>
                             <br/>
                             <!--GENDER-->
@@ -39,17 +39,17 @@
                                 <span class="label"> chose youre gender*</span>
                             </label>
                             <br/>
-                            <input type="radio" id="woman" name="gender" value="woman" checked/>
+                            <input type="radio" id="woman" name="gender" value="woman" required="required"/>
                             <label for="woman">
                                 <span class="keuze">Woman</span>
                             </label>
                             <br/>
-                            <input type="radio" id="male" name="gender" value="male"/>
+                            <input type="radio" id="male" name="gender" value="male" required="required"/>
                             <label for="male">
                                 <span class="keuze">Male</span>
                             </label>
                             <br/>
-                            <input type="radio" id="other" name="gender" value="other"/>
+                            <input type="radio" id="other" name="gender" value="other"required="required"/>
                             <label for="other">
                                 <span class="keuze">Other</span>
                             </label>
@@ -61,7 +61,7 @@
                             <span class="label">Something you loved</span>
                             </label>
                             <br/>
-                            <input class="input_field" type="text" id="description" name="description" placeholder="what you loved the most" required/>
+                            <input class="input_field" type="text" id="description" name="description" placeholder="what you loved the most" required="required"/>
                                                                                                                             
                             <!--SUBMIT BUTTON-->
                            

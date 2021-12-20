@@ -10,38 +10,51 @@
 </head>
 <body>
     <div class="content">
-        <h1>
-            name
-        </h1>
+        <div>
+            <h1>
+                name
+            </h1>
+        </div>
+     
         <div class="user_picture">
             <img src="assets/images/userHead.png" alt="picture" >
         </div>
 
+        <div class="info">
+            <h2>age</h2>
+            <h2>description</h2>
+        </div>
+         
+        
         <!--buttons in een tabbel steken in een 2x2 matrix-->
-        <table>
-            <tr>
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <button class="button_house">
+                            Gryffindor
+                        </button>
+                    </td>
+                    <td>
+                        <button class="button_house" >
+                            slytherin
+                        </button>
+                    </td>
+                </tr>
                 <td>
-                    <button class="button_house">
-                        Gryffindor
-                    </button>
-                </td>
-                <td>
-                    <button class="button_house" >
-                        slytherin
-                    </button>
-                </td>
-            </tr>
-            <td>
-                    <button class="button_house">
-                        Ravenclaw
-                    </button>
-                </td>
-                <td>
-                    <button class="button_house">
-                        Huffepuff
-                    </button>
-                </td>
-        </table>
+                        <button class="button_house">
+                            Ravenclaw
+                        </button>
+                    </td>
+                    <td>
+                        <button class="button_house">
+                            Huffepuff
+                        </button>
+                    </td>
+            </table>    
+
+        </div>
+      
     </div>
 </body>
 </html>
