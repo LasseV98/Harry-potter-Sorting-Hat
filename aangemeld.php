@@ -4,25 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>almost playtime</title>
+    <title>Homepagina</title>
     <link rel="stylesheet" href="assets/css/index.css" type="text/css">
 </head>
-    <body>
+    <body class="groenlicht">
         <!--content is het heel gedeelte waar altijd iets in te vinden is -->
         <div class="content">
-       
-            <!--de gif vanboven-->
-            <div class="gif-main">
-            <img src="assets/images/harry-potter-gifs-index-picture.gif" alt="" srcset="">
+
+            <div>
+                <H1>
+                    Welkom
+                </H1>
             </div>
-            <br/>
+            <div>
+                <p>
+                    Congrats on login in to our website 
+                </p>
+            </div>
+           
+            <div>
+                <img src="assets/images/succes-gifs.gif" alt="Great Succes" >
+            </div>
+
+            <div>
+                <h2>
+                    Explanation
+                </h2>
+                <p>
+                Take some rest, if not push the button. It is actually very easy, you choose which person belongs in which house
+                </p>
+            </div>
             
             <!--navigatie venster met de knoppen-->
             <div class="navigation_buttons">
 
-                <nav>
-                    <!--knop voor aanmelden-->
-                    <a class="knop" href="aanmelden.php">Add person</a>
 
                     <!--knop voor naar het swipen gaan-->
 

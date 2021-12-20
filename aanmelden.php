@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/index.css" type="text/css">
 </head>
         <body>
-            <div class="content  ">
+            <div class="content">
                 <div>
                     <h1 class="Title_aanmelden">
                         Create account
