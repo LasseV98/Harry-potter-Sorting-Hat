@@ -127,6 +127,7 @@ table{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 27px;
 
 }
 /*Hier komt alles van de pagina aanmelden.php*/
@@ -137,10 +138,11 @@ table{
     align-items: center;
 }
 .img_aanmelden{
-    width: 30%;
-    height:30%;
+    width: 15%;
+    height:20%;
     margin-top: -250px;
     margin-left: 50px;
+    position: relative;
    
 }
 
@@ -188,3 +190,14 @@ input.input_field{
 .groenlicht{
     background-color: green;
 }
+
+.img_succes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraaf{
+    text-align: center;
+
+}
+

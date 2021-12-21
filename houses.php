@@ -12,7 +12,15 @@
     <div class="content">
         <div>
             <h1>
-                name
+                <?php
+                include "assets\includes\db.php";
+                $users=getQuery("SELECT * FROM `users` WHERE userId LIKE '5'");
+                foreach($users as $user){
+                ?>
+                <?php echo $user["firstname"];?>
+        <?php
+                }
+        ?>
             </h1>
         </div>
      
@@ -21,8 +29,14 @@
         </div>
 
         <div class="info">
-            <h2>age</h2>
-            <h2>description</h2>
+            <?php
+        foreach($users as $user){
+            ?>
+            <h2> <?php echo $user["gender"];?></h2>
+            <h2><?php echo $user["description"];?></h2>
+            <?php
+                }
+        ?>
         </div>
          
         

@@ -16,13 +16,13 @@
                     Welkom
                 </H1>
             </div>
-            <div>
+            <div class="paragraaf">
                 <p>
                     Congrats on login in to our website 
                 </p>
             </div>
            
-            <div>
+            <div class="img_succes">
                 <img src="assets/images/succes-gifs.gif" alt="Great Succes" >
             </div>
 
@@ -30,7 +30,7 @@
                 <h2>
                     Explanation
                 </h2>
-                <p>
+                <p class="paragraaf">
                 Take some rest, if not push the button. It is actually very easy, you choose which person belongs in which house
                 </p>
             </div>
