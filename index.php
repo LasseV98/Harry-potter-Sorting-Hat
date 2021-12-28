@@ -23,7 +23,7 @@
                 <nav>
                     <!--knop voor aanmelden-->
                     <a class="knop" href="aanmelden.php">Add person</a>
-
+                    <br/>
                     <!--knop voor naar het swipen gaan-->
 
                     <a class="knop" href="houses.php">Add people to their house</a>

@@ -3,6 +3,9 @@
 body{
     background-color:#FFA500;
         background-image: url("../../assets/images/background_wallpaper.jpg");
+      
+        background-size: auto;
+        background-position: center;
 
 }
 /*de content is alles wat in de body staat dit staat in aparte div --> content , mooi vak van maken en dat is waar alles in moet dit is de opmaak voor alle paginas dus staat apart en van boven*/
@@ -35,7 +38,6 @@ p{
 
 
     background-color:#EC7063;
-
     margin-top: 40px;
     margin-left: 200px;
     color: black;
@@ -57,6 +59,7 @@ p{
 .content{
      /*KLEUR VAN HET VLAK*/
      background-color: #33DBFF;
+     opacity: 0.78;
 
      /*GROOTTE VAN HET VLAK*/
      min-height: 700px;
@@ -65,10 +68,10 @@ p{
      /*POSITIE OP DE PAGINA VAN HET VLAK*/
      margin-left: auto;
      margin-right: auto;
-     margin-top: 50px;
+     margin-top: 20px;
  
      /*WITRUIMTE INTERN TOV BOVENKANT*/
-     padding-top: 10px;
+     padding-top: 5px;
  }
 .gif-main{
     margin-top: 100px;
@@ -151,11 +154,11 @@ p{
     align-items: center;
 }
 .img_aanmelden{
-    width: 10%;
-    height:10%;
-    margin-top: -250px;
-    margin-left: 50px;
-    position: relative;
+    width: 20%;
+    height:20%;
+    margin-top: -150px;
+    margin-left: 25px;
+    position: absolute;
    
 }
 /*hier komt alles van de aanmelden.php pagina*/

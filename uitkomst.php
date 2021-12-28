@@ -13,7 +13,7 @@
             <h1>
                 <?php
                 
-                    include "assets/includes/db.php";
+                    include "assets\includes\db.php";
                     $users=getQuery("SELECT * FROM `users` WHERE userId LIKE '1'");
                     foreach($users as $user)
                     {
@@ -29,28 +29,36 @@
    
 
         
-           
-               
-            
+            <div>
+                <h1>
+                    
+                </h1>
+            </div class="user_gegevens">
             <div class="img_user">
-                <img src="assets/images/userHead.png" alt="userhead" >
+                <img src="assets/images/userHead.png" alt="" srcset="">
             </div>
 
-            <div class="user_gegevens">
+            <div>
                 <p><?php echo$user["gender"];?></p>
                 <p><?php echo$user["description"];?></p>
             </div>
             <br/>
-            <form class="game_buttons" action="assets/controllers/add_house.php" method="POST">
+            <form class="game_buttons"action="">
                 <div>
-                    <button type="submit" value="Gryffindor" name="house" class="knop_houses">Gryffindor</button>
-                    <button type="submit" value="Ravenclaw" name="house" class="knop_houses">Ravenclaw</button>
+                    <input type="submit" value="Gryffindor" name="Gryffindor" class="knop_houses">
+                    <input type="submit" value="Slytherin" name="Slytherin" class="knop_houses">
                 </div>
                 <div>
-                    <button type="submit" value="Slytherin" name="house" class="knop_houses">Slytherin</button>
-                    <button type="submit" value="Hufflepuff"  name="house" class="knop_houses">Gryffindor</button>
+                    <input type="submit" value="Ravenclaw" name="Ravenclaw" class="knop_houses">
+                    <input type="submit" value="Hufflepuff"  name="Hufflepuff" class="knop_houses">
                 </div>
             </form>
+
+            <div>
+                <button class="knop">
+                    next person
+                </button>
+            </div>
 
             
 

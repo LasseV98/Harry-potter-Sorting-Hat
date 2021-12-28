@@ -13,8 +13,11 @@
 
 
                 if($firstname != null && $lastname != null && $gender != null && $description != null ){
-                   
+                    echo "excecute to db";
                     insertQuery("INSERT INTO users (firstname, lastname, gender, description) VALUES ('$firstname','$lastname','$gender', '$description')");
-                    header('Location: https://sortinghat.vrijmoed17.be/aangemeld.php');
+                    header('Location: http://localhost:8888/aangemeld.php');
 
                 }
+
+                
+        
